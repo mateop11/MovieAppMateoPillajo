@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MovieApp_MateoPillajo.Models
 {
-    internal class Pelicula
+    public class Pelicula
     {
         public int Id { get; set; }
         public string Titulo { get; set; }
@@ -15,6 +15,6 @@ namespace MovieApp_MateoPillajo.Models
         public string Premios { get; set; }
         public string SitioWeb { get; set; }
         public string Mpillajo { get; set; }
-
+        public string MPillajo { get; internal set; }
     }
 }

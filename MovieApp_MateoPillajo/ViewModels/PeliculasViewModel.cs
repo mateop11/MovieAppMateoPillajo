@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.Net.Http.Json;
-
 using MovieApp_MateoPillajo.Models;
 using MovieApp_MateoPillajo.Servicios;
 
@@ -62,3 +61,4 @@ public class PeliculasViewModel : BaseViewModel
         }
     }
 }
+
